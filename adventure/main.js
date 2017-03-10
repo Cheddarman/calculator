@@ -38,8 +38,11 @@ $(document).ready(function(){
     $("#display").append(selection)
   })
   $("#equals").on("click", function(){
-    var result = eval($("#display").html())
+    var result = eval($("#display").html()
     $("#display").html(result)
+  })
+  $("#dot").on("click", function(){
+    $("#display").append(".")
   })
   /*
   $("#two").on("click", function(){
