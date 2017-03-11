@@ -1,0 +1,31 @@
+html {box-sizing:border-box;}
+*, *:before, *:after {box-sizing:inherit;}
+
+.calculator {
+	width:300px;
+	background-color: aqua;
+	padding:40px;
+	display: flex;
+	flex-wrap: wrap;
+}
+
+#display {
+	width:160px;
+  padding-left:5px;
+  padding-right: 5px;
+  line-height: 48px;
+  background-color: #444;
+  text-align: right;
+  color:#ddd;
+  font-size: 20px;
+  height:48px;
+  float:right;
+  margin-left:5px;
+  overflow:hidden;
+}
+
+button {
+	height: 50px;
+	width: 50px;
+	background-color: green;
+}
